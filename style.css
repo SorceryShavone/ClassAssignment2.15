@@ -1,15 +1,24 @@
+/*Heading*/
+
 h1 {
     background-color: yellow;
     text-align: end;
     font-family: Arial;
     color: #000;
-    align-items:
+    align-items: left;
+}
+
+.heading:hover {
+    background-color: black;
+    color: yellow;
 }
 
 body {
     background-color: gray;
 }
 /*Font Size of Text*/
+
+
 p {
     text-decoration: underline;
 }
@@ -28,6 +37,7 @@ p2 {
     position: fixed;
 }
 
+
 /* Styling of Center Boxes*/
 
 .centerBox {
@@ -38,23 +48,25 @@ p2 {
 }
 div {
     background-color: palevioletred;
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
 }
 
 p3 {
     background-color: red;
 }
 
+
+
+/*Linked In*/
 .linkToLinkedIn {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     background-color: green;
     border-style: dashed;
     border-color: yellow;
     border-radius: 25px;
     padding: 10px 10px 10px 10px; 
-    text-align: center; 
-    flex-wrap: wrap;  
+    text-align: center;  
 }
 
 .linkToLinkedIn:hover {
