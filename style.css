@@ -1,0 +1,28 @@
+h1 {
+    background-color: yellow;
+    text-align: end;
+    font-family: Arial;
+    color: #000;
+    align-items:
+}
+
+body {
+    background-color: gray;
+}
+
+p {
+    text-decoration: underline;
+}
+
+p.p1.p3 {
+
+    font-family: Arial;
+    font-size: medium;
+}
+
+p2 {
+    font-size: larger;
+    font-family: Arial;
+    font-weight: 1000;
+}
+}
