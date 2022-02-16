@@ -1,4 +1,4 @@
-/*Heading*/
+/*Heading and Background*/
 
 h1 {
     background-color: yellow;
@@ -16,45 +16,54 @@ h1 {
 body {
     background-color: gray;
 }
-/*Font Size of Text*/
+/*Background Text*/
 
 
 p {
     text-decoration: underline;
-}
-
-p.p1.p3 {
-
-    font-family: Arial;
+    font-family: h;
     font-size: medium;
 }
-
-p2 {
-    font-size: larger;
-    font-family: Arial;
-    font-weight: 1000;
-    background-color: lightblue;
-    position: fixed;
-}
-
 
 /* Styling of Center Boxes*/
 
 .centerBox {
-    width: 320px;
-    padding: 0px 25px 100px 25px;
-    margin:0;
-    
-}
-div {
-    background-color: palevioletred;
-    width: 300px;
-    padding: 50px;
-    margin: 20px;
+    width: 150px;
+    height: 200px; 
+    margin: 0px;
+    padding: 5px 75px 100px 25px;
+    float: left;
+
+
 }
 
-p3 {
+.centerBox:hover {
+    background-color: green;
+    cursor:help;
+}
+ 
+
+.div1.div3 {
+    font-family: Arial; 
+    text-align: center; 
+    
+}
+
+.div1 {
+    background-color: palevioletred;
+}
+
+.div2 {
+    background-color: black;
+    color: white; 
+    font-family: Arial;
+    font-weight: 1000; 
+
+}
+
+.div3 {
     background-color: red;
+    color: white; 
 }
 
 
@@ -66,11 +75,15 @@ p3 {
     border-color: yellow;
     border-radius: 25px;
     padding: 10px 10px 10px 10px; 
-    text-align: center;  
+    margin: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20000px; 
 }
 
 .linkToLinkedIn:hover {
     background-color: red;
     border-radius: 0px;
+    cursor: pointer;
     
 }
